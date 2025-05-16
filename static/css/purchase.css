@@ -1,0 +1,58 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .purchase-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            max-width: 700px;
+            margin: 50px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .purchase-section h2 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .purchase-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .purchase-form label {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .purchase-form input,
+        .purchase-form select {
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .purchase-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 14px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .purchase-form button:hover {
+            background-color: #555;
+        }
+   

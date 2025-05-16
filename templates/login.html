@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bookstore</title>
+    <link rel="stylesheet" href="/static/css/login-styles.css">
+</head>
+<body>
+
+
+
+ <!------------------------- Header Section ------------------------>
+  
+ 
+ <header>
+        <div class="container">
+            <h1>Book-Cloud</h1>
+            <nav>
+                <ul>
+                    <li><a href="indext.html">Home</a></li>
+                    <li><a href="booklib.html">Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contect.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+<!----------------- Login Form Section ----------------------------->
+   
+<section class="login-section">
+        <div class="container">
+            <h2>Login to Your Account</h2>
+            <p>Enter your credentials to access your account and shop the best books online.</p>
+
+            <div class="login-form">
+                <form action="#" method="POST">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                    <button type="submit" class="btn-login">Login</button>
+
+                    <div class="extra-options">
+                        <a href="#">Forgot your password?</a>
+                        <p>Don't have an account? <a href="{% url 'sign' %}">New Account</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!---------------- Footer Section ---------------------->
+ 
+   
+    <footer>
+        <div class="container">
+            <p>Thanks for visiting.</p>
+        </div>
+    </footer>
+</body>
+</html>
